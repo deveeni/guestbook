@@ -39,7 +39,7 @@
          <td>[<%=count-index++ %>]</td>
          <td><%=vo.getName() %></td>
          <td><%=vo.getRegDate() %></td>
-         <td><a href="deleteform.jsp?no=<%=vo.getNo() %>" method = "get">삭제</a></td><!-- no가 pk가 되야함 -->
+         <td><a href="deleteform.php?no=<%=vo.getNo() %>" method = "get">삭제</a></td><!-- no가 pk가 되야함 -->
       </tr>
       <tr>
          <td colspan=4><%=vo.getContent().replaceAll("\n","<br>") %></td>
